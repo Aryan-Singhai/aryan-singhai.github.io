@@ -471,6 +471,40 @@ ul {
     font-weight: 650;
 }
 
+.project-highlights {
+    margin-top: 22px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+}
+
+.project-highlights p {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.project-highlights ul {
+    display: grid;
+    gap: 6px;
+}
+
+.project-highlights li {
+    position: relative;
+    padding-left: 16px;
+    color: var(--text-light);
+    font-size: 0.82rem;
+}
+
+.project-highlights li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 800;
+}
 
 /* =========================================================
    EXPERIENCE
