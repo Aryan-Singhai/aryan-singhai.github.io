@@ -749,9 +749,9 @@ ul {
     }
 
     .hero {
-        min-height: auto;
-        padding: 90px 0;
-    }
+    min-height: auto;
+    padding: 56px 0 70px;
+}
 
     .hero h1 {
         font-size: clamp(2.8rem, 13vw, 4.2rem);
