@@ -441,6 +441,7 @@ ul {
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 22px;
+    align-items: center;
 }
 
 .project-links {
