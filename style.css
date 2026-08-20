@@ -1216,11 +1216,49 @@ ul {
 }
 
 .project-actions,
+
+.olist-project .project-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.olist-project .project-actions .btn {
+    min-height: 42px;
+    padding: 10px 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 8px;
+}
+
 .final-actions {
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
     margin-top: 30px;
+}
+
+.olist-project .final-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 32px;
+}
+
+.olist-project .final-actions .btn {
+    min-height: 44px;
+    padding: 11px 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 8px;
 }
 
 .project-section {
@@ -1425,9 +1463,21 @@ ul {
     margin-bottom: 8px;
 }
 
-.insight-box p {
+.olist-project .insight-box {
+    border-left: 3px solid var(--olist-accent);
+    background: var(--olist-accent-soft);
+    border-radius: 0 10px 10px 0;
+    padding: 20px 24px 20px 28px;
+    margin-top: 24px;
+}
+
+.olist-project .insight-box p {
     margin: 0;
     line-height: 1.7;
+}
+
+.olist-project .insight-box strong {
+    color: var(--olist-text);
 }
 
 .category-list {
@@ -1598,7 +1648,40 @@ ul {
         flex-direction: column;
     }
 
+   .olist-project .project-actions,
+.olist-project .final-actions {
+    width: 100%;
 }
+
+.olist-project .project-actions .btn,
+.olist-project .final-actions .btn {
+    flex: 0 1 auto;
+}
+   
+}
+
+/* =========================================================
+   OLIST — MOBILE ANALYSIS ORDER
+   Keep every analysis section: Description → Visual
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .olist-project .analysis-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .olist-project .analysis-grid .analysis-copy {
+        order: 1;
+    }
+
+    .olist-project .analysis-grid .visual-image {
+        order: 2;
+    }
+
+}
+
 
 .olist-project .snapshot-value,
 .olist-project .result-value,
