@@ -1142,4 +1142,433 @@ ul {
 
 }
 
+/* =========================================================
+   OLIST E-COMMERCE CASE STUDY
+   ========================================================= */
+
+.project-hero {
+    padding: 150px 0 110px;
+}
+
+.project-hero-content {
+    max-width: 900px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 55px;
+    text-decoration: none;
+}
+
+.project-eyebrow,
+.section-label {
+    letter-spacing: 0.14em;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.project-hero h1 {
+    font-size: clamp(3rem, 7vw, 6.5rem);
+    line-height: 0.98;
+    margin: 20px 0 30px;
+}
+
+.project-hero h1 span,
+.analysis-copy h2 span,
+.final-takeaway h2 span {
+    opacity: 0.55;
+}
+
+.project-hero-description {
+    max-width: 720px;
+    font-size: 1.25rem;
+    line-height: 1.75;
+}
+
+.project-tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+.project-tech-tags span,
+.sql-skills span {
+    padding: 8px 14px;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    font-size: 0.8rem;
+}
+
+.project-actions,
+.final-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 30px;
+}
+
+.project-section {
+    padding: 110px 0;
+}
+
+.section-heading {
+    display: flex;
+    gap: 28px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.section-number {
+    font-size: 0.8rem;
+    font-weight: 700;
+    opacity: 0.45;
+    padding-top: 8px;
+}
+
+.section-heading h2 {
+    max-width: 850px;
+    margin: 8px 0 0;
+    font-size: clamp(2rem, 4vw, 4rem);
+    line-height: 1.08;
+}
+
+.business-question-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 80px;
+}
+
+.question-intro p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+.question-list {
+    display: grid;
+    gap: 18px;
+}
+
+.question-item {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 20px;
+    padding: 22px 0;
+    border-bottom: 1px solid rgba(127,127,127,.2);
+}
+
+.question-item span {
+    font-weight: 700;
+    opacity: .45;
+}
+
+.question-item p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.snapshot-grid,
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.snapshot-card,
+.result-card,
+.recommendation-card {
+    padding: 30px;
+    border: 1px solid rgba(127,127,127,.2);
+    border-radius: 18px;
+}
+
+.snapshot-value,
+.result-value {
+    display: block;
+    font-size: 2.6rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
+.snapshot-label,
+.result-label {
+    display: block;
+    font-weight: 700;
+}
+
+.result-card p {
+    margin-top: 15px;
+    line-height: 1.6;
+    opacity: .75;
+}
+
+.analysis-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.analysis-copy h2 {
+    font-size: clamp(2rem, 4vw, 4rem);
+    line-height: 1.08;
+    margin: 15px 0 25px;
+}
+
+.analysis-copy > p {
+    font-size: 1.08rem;
+    line-height: 1.8;
+}
+
+.alternate {
+    background: rgba(127,127,127,.045);
+}
+
+.visual-placeholder {
+    min-height: 430px;
+    border: 1px dashed rgba(127,127,127,.35);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.visual-placeholder span {
+    font-size: .75rem;
+    letter-spacing: .12em;
+    font-weight: 700;
+    opacity: .5;
+}
+
+.visual-placeholder p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.visual-placeholder small {
+    opacity: .55;
+}
+
+.mini-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 35px 0;
+}
+
+.mini-metrics strong,
+.highlight-stat strong,
+.retention-highlight strong,
+.delivery-comparison strong {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.mini-metrics span,
+.highlight-stat span,
+.retention-highlight span,
+.delivery-comparison span {
+    display: block;
+    margin-top: 6px;
+    opacity: .65;
+    font-size: .85rem;
+}
+
+.highlight-stat,
+.retention-highlight {
+    padding: 25px 0;
+    margin: 25px 0;
+}
+
+.insight-box {
+    margin-top: 35px;
+    padding: 25px;
+    border-left: 3px solid currentColor;
+}
+
+.insight-box strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.insight-box p {
+    margin: 0;
+    line-height: 1.7;
+}
+
+.category-list {
+    margin-top: 30px;
+}
+
+.category-list div {
+    display: grid;
+    grid-template-columns: 35px 1fr auto;
+    gap: 15px;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(127,127,127,.15);
+}
+
+.category-list span {
+    opacity: .45;
+}
+
+.delivery-comparison {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 35px 0;
+}
+
+.delivery-comparison div {
+    padding: 20px;
+    border: 1px solid rgba(127,127,127,.2);
+    border-radius: 15px;
+}
+
+.recommendations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.recommendation-card span {
+    font-size: .8rem;
+    opacity: .45;
+    font-weight: 700;
+}
+
+.recommendation-card h3 {
+    margin: 20px 0 12px;
+    font-size: 1.3rem;
+}
+
+.recommendation-card p {
+    line-height: 1.7;
+    opacity: .75;
+}
+
+.sql-modules {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.sql-modules div {
+    padding: 20px;
+    border: 1px solid rgba(127,127,127,.2);
+    border-radius: 14px;
+}
+
+.sql-modules span {
+    display: block;
+    font-size: .75rem;
+    opacity: .45;
+    margin-bottom: 12px;
+}
+
+.sql-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+.final-takeaway {
+    text-align: center;
+}
+
+.final-takeaway h2 {
+    max-width: 850px;
+    margin: 15px auto 25px;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    line-height: 1.05;
+}
+
+.final-takeaway > .container > p:not(.section-label) {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+.final-actions {
+    justify-content: center;
+}
+
+.project-footer {
+    padding: 40px 0;
+    border-top: 1px solid rgba(127,127,127,.15);
+}
+
+.project-footer .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project-footer a {
+    text-decoration: none;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    .business-question-grid,
+    .analysis-content {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .snapshot-grid,
+    .results-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sql-modules {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .project-hero {
+        padding: 120px 0 80px;
+    }
+
+    .project-section {
+        padding: 75px 0;
+    }
+
+    .snapshot-grid,
+    .results-grid,
+    .recommendations-grid,
+    .sql-modules {
+        grid-template-columns: 1fr;
+    }
+
+    .delivery-comparison {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading {
+        gap: 15px;
+    }
+
+    .project-footer .container {
+        flex-direction: column;
+    }
+
+}
+
 
