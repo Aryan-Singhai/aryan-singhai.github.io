@@ -1190,7 +1190,8 @@ ul {
 .project-hero h1 span,
 .analysis-copy h2 span,
 .final-takeaway h2 span {
-    opacity: 0.55;
+    color: var(--olist-accent);
+    opacity: 1;
 }
 
 .project-hero-description {
