@@ -16,6 +16,19 @@
     --transition: 0.25s ease;
 }
 
+/* =========================================================
+   OLIST PROJECT DESIGN SYSTEM
+========================================================= */
+
+.olist-project {
+    --olist-accent: #2563eb;
+    --olist-accent-dark: #1d4ed8;
+    --olist-accent-soft: #eff6ff;
+    --olist-text: #111827;
+    --olist-muted: #64748b;
+    --olist-border: #e2e8f0;
+}
+
 * {
     margin: 0;
     padding: 0;
