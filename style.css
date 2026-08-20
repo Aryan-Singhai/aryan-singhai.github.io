@@ -1160,7 +1160,7 @@ ul {
    ========================================================= */
 
 .project-hero {
-    padding: 150px 0 110px;
+    padding: 105px 0 85px;
 }
 
 .project-hero-content {
@@ -1224,14 +1224,14 @@ ul {
 }
 
 .project-section {
-    padding: 110px 0;
+    padding: 85px 0;
 }
 
 .section-heading {
     display: flex;
     gap: 28px;
     align-items: flex-start;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
 }
 
 .section-number {
@@ -1336,8 +1336,8 @@ ul {
     line-height: 1.8;
 }
 
-.alternate {
-    background: rgba(127,127,127,.045);
+.olist-project .alternate {
+    background: var(--bg-alt);
 }
 
 .visual-placeholder {
@@ -1367,19 +1367,19 @@ ul {
     opacity: .55;
 }
 
-.visual-image {
+.olist-project .visual-image {
     width: 100%;
-    border: 1px solid rgba(127, 127, 127, 0.18);
-    border-radius: 20px;
+    border: 1px solid var(--olist-border);
+    border-radius: 18px;
     overflow: hidden;
     background: #ffffff;
-    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.07);
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.07);
 }
 
-.visual-image img {
+.olist-project .visual-image img {
+    display: block;
     width: 100%;
     height: auto;
-    display: block;
 }
 
 .mini-metrics {
@@ -1414,10 +1414,10 @@ ul {
     margin: 25px 0;
 }
 
-.insight-box {
-    margin-top: 35px;
-    padding: 25px;
-    border-left: 3px solid currentColor;
+.olist-project .insight-box {
+    border-left: 3px solid var(--olist-accent);
+    background: var(--olist-accent-soft);
+    border-radius: 0 10px 10px 0;
 }
 
 .insight-box strong {
@@ -1600,4 +1600,40 @@ ul {
 
 }
 
+.olist-project .snapshot-value,
+.olist-project .result-value,
+.olist-project .mini-metrics strong,
+.olist-project .highlight-stat strong,
+.olist-project .retention-highlight strong,
+.olist-project .delivery-comparison strong {
+    color: var(--olist-accent);
+}
 
+.olist-project .section-label,
+.olist-project .project-eyebrow,
+.olist-project .project-number {
+    color: var(--olist-accent);
+}
+
+.olist-project .project-actions .btn-primary,
+.olist-project .final-actions .btn-primary {
+    background: var(--olist-accent);
+    color: #ffffff;
+    border-color: var(--olist-accent);
+}
+
+.olist-project .project-actions .btn-primary:hover,
+.olist-project .final-actions .btn-primary:hover {
+    background: var(--olist-accent-dark);
+    border-color: var(--olist-accent-dark);
+}
+
+.olist-project .btn-secondary {
+    border-color: var(--olist-border);
+    color: var(--olist-text);
+}
+
+.olist-project .btn-secondary:hover {
+    border-color: var(--olist-accent);
+    color: var(--olist-accent);
+}
