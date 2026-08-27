@@ -212,7 +212,11 @@ img { max-width: 100%; }
 .skills-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 18px;
+    gap: 28px;
+}
+
+.skill-card {
+    width: 100%;
 }
 .skill-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 30px; transition: transform var(--transition), box-shadow var(--transition); }
 .skill-card:hover { transform: translateY(-4px); box-shadow: 0 15px 35px rgba(15,23,42,.07); }
