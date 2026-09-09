@@ -22,7 +22,15 @@
 .experience-progression { display: grid; grid-template-columns: 1fr 45px 1fr; align-items: center; margin: 28px 0 30px; }
 .experience-stage { min-height: 82px; padding: 16px 18px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg-alt); display: flex; align-items: center; gap: 14px; }
 .experience-stage.current { border-color: #93c5fd; background: var(--accent-soft); }
+/* Reverse chronological order: current role first, previous role second */
+.experience-stage.current { order: 1; }
+.experience-connector { order: 2; }
+.experience-stage:not(.current) { order: 3; }
 .experience-stage-number { width: 28px; height: 28px; flex: 0 0 28px; display: grid; place-items: center; border-radius: 50%; background: var(--accent); color: #fff; font-size: .72rem; font-weight: 750; }
+.experience-stage.current .experience-stage-number { font-size: 0; }
+.experience-stage.current .experience-stage-number::after { content: "01"; font-size: .72rem; }
+.experience-stage:not(.current) .experience-stage-number { font-size: 0; }
+.experience-stage:not(.current) .experience-stage-number::after { content: "02"; font-size: .72rem; }
 .experience-stage strong { display: block; font-size: .9rem; line-height: 1.25; }
 .experience-stage small { display: block; margin-top: 4px; color: var(--text-light); font-size: .72rem; }
 .experience-connector { height: 1px; background: var(--border); }
