@@ -4,11 +4,13 @@ const navLinks = document.getElementById("nav-links");
 if (menuToggle && navLinks) {
     menuToggle.setAttribute("aria-expanded", "false");
     menuToggle.setAttribute("aria-label", "Open navigation menu");
+    menuToggle.textContent = "☰";
 
     const closeMenu = () => {
         navLinks.classList.remove("active");
         menuToggle.setAttribute("aria-expanded", "false");
         menuToggle.setAttribute("aria-label", "Open navigation menu");
+        menuToggle.textContent = "☰";
     };
 
     menuToggle.addEventListener("click", (event) => {
@@ -16,6 +18,7 @@ if (menuToggle && navLinks) {
         const isOpen = navLinks.classList.toggle("active");
         menuToggle.setAttribute("aria-expanded", String(isOpen));
         menuToggle.setAttribute("aria-label", isOpen ? "Close navigation menu" : "Open navigation menu");
+        menuToggle.textContent = isOpen ? "×" : "☰";
     });
 
     const navItems = document.querySelectorAll(".nav-links a");
